@@ -256,3 +256,61 @@ h2 {
 /*********************
 MOBILE
 ********************/
+@media only screen and (max-width: 700px) {
+    .teenused {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-gap: 10px;
+
+    }
+
+    .teenus{
+        width: 100%;
+    }
+
+    .teenus1 {
+        grid-column-start: 1;
+        grid-column-end: 2;
+    }
+    
+    .teenus2 {
+        grid-column-start: 1;
+        grid-column-end: 2;
+    }
+    
+    .teenus3 {
+        grid-column-start: 1;
+        grid-column-end: 2;
+    }
+    
+    .teenus4 {
+        grid-column-start: 1;
+        grid-column-end: 2;
+    
+    }
+    
+    .teenus5 {
+        grid-column-start: 1;
+        grid-column-end: 2;
+    }
+
+    .about-wrapper {
+        margin: 0px 2vw;
+    }
+
+    
+.inimesed {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    margin: 0px 10vw; 
+}
+
+.contact-wrapper {
+    margin: 0px 4vw;
+}
+
+}
+
+
+
